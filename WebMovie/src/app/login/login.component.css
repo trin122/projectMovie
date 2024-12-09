@@ -1,0 +1,39 @@
+.signinform {
+    margin-top: 60px; /* Giữ khoảng cách giữa form và header */
+}
+
+.card {
+    max-width: 350px; /* Giảm chiều rộng của form thêm */
+    width: 100%;
+    padding: 15px; /* Giảm padding bên trong card */
+    margin: 0 auto; /* Căn giữa card */
+}
+
+.card-body {
+    padding: 10px 15px; /* Giảm padding trong card-body */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Giảm khoảng cách giữa các phần tử form */
+}
+
+/* Điều chỉnh chiều cao của các input */
+input.form-control {
+    height: 35px; /* Giảm chiều cao của các input xuống */
+    font-size: 14px; /* Giảm kích thước font trong các input */
+}
+
+/* Điều chỉnh chiều cao của nút login */
+button.btn {
+    height: 40px; /* Giảm chiều cao của nút login */
+    font-size: 14px; /* Giảm kích thước font của nút */
+}
+
+/* Điều chỉnh cho màn hình di động */
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%; /* Làm cho form nhỏ hơn trên màn hình di động */
+    }
+}

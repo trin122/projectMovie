@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\huutr\\source\\repos\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\renrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\renrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\controllers\\watchhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\watchhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\watchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\watchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\searchfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\searchfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|c:\\users\\huutr\\source\\repos\\webapi\\webapi\\model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E2F1DB-76F2-4E46-A74E-30E4F65A44C8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:04:12.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T12:51:15.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:49:11.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\Login.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Login.cs",
+              "RelativeToolTip": "WebApi\\Model\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:35:22.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:04:55.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T15:55:51.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RenreController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\RenreController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RenreController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\RenreController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RenreController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:59:16.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAkwKQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:20:41.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:56:15.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\User.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\User.cs",
+              "RelativeToolTip": "WebApi\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:01:17.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:14:48.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WatchHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\WatchHistoryController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\WatchHistoryController.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Controllers\\WatchHistoryController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\WatchHistoryController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:18:07.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Movie.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\Movie.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Movie.cs",
+              "RelativeToolTip": "WebApi\\Model\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:03:57.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Register.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\Register.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Register.cs",
+              "RelativeToolTip": "WebApi\\Model\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T15:55:22.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Genre.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\Genre.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Genre.cs",
+              "RelativeToolTip": "WebApi\\Model\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:09:36.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WatchHistory.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\WatchHistory.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\WatchHistory.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\WatchHistory.cs",
+              "RelativeToolTip": "WebApi\\Model\\WatchHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:07:55.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchFilter.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\SearchFilter.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\SearchFilter.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\SearchFilter.cs",
+              "RelativeToolTip": "WebApi\\Model\\SearchFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:04:43.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Rating.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\Rating.cs",
+              "ToolTip": "C:\\Users\\huutr\\source\\repos\\WebApi\\WebApi\\Model\\Rating.cs",
+              "RelativeToolTip": "WebApi\\Model\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:08:52.713Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

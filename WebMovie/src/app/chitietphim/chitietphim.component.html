@@ -1,0 +1,88 @@
+<div class="w3l-breadcrumbs">
+</div>
+<!--//breadcrumbs -->
+<!--/genre-single-->
+<section class="w3l-text-8 genre-single">
+    <!-- <div class="text-bg-image"></div> -->
+    <div class="container py-5">
+        <div class="d-grid-1 py-lg-4">
+            <div class="text">
+                <h6 class="text-logo">Xem Phim</h6>
+                <!-- <h3 class="hny-title">{{ movie.name }}</h3> -->
+                <!-- <p>{{ movie.content }}</p> -->
+
+                <div class="genre-single-page my-lg-5 my-4">
+                    <div class="row ab-grids-sec align-items-center">
+                        <div class="col-lg-4 gen-right">
+                            <a href="#">
+                                <img class="img-fluid" src="{{ movie.poster_url }}" alt="Poster">
+                            </a>
+                        </div>
+                        <div class="col-lg-8 gen-left pl-lg-4 mt-lg-0 mt-5">
+                            <h3 class="hny-title">{{ movie.origin_name }}</h3>
+                            <p class="mt-2">{{ movie.content }}</p>
+                            <ul class="admin-post mt-1">
+                                <li>
+                                    <a href="#"><span class="fa fa-clock-o"></span> {{ movie.year }}</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-flag"></span> {{ movie.country[0]?.name }}</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="fa fa-tags"></span> {{ movie.category[0]?.name }}</a>
+                                </li>
+                            </ul>
+                            <div class="share-more d-flex mt-4">
+                                <!-- Nút Xem Phim -->
+<button (click)="goToWatchPage()" class="btn read-button btn-watch">Xem phim</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="genre-single-page mb-lg-5 mb-4">
+                    <div class="row ab-grids-sec">
+                        <div class="col-lg-12 gen-right-1">
+                            <h4>Episodes</h4>
+                            <ul>
+                                <li *ngFor="let episode of movie.episodes">
+                                    <a [href]="episode.link_m3u8" target="_blank">{{ episode.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w3l-blog-single comments mt-5">
+                        <div class="testi-top mt-5 pt-3">
+                            <h3 class="post-content-title">Leave a Comment</h3>
+                            <div class="form-commets mt-5">
+                                <form action="#" method="post">
+                                    <div class="media-form">
+                                        <input type="text" class="mb-3" name="Name" required="Name" placeholder="Your Name">
+                                        <input type="email" class="mb-3" name="Email" required="Email" placeholder="Your Email">
+                                    </div>
+                                    <textarea name="Message" required="" placeholder="Write your comments here"></textarea>
+                                    <div class="text-right mt-3">
+                                        <button class="btn read-button" type="submit">Post comment</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--//genre-single-->
+<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+
+
+</div>

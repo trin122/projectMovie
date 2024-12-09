@@ -1,0 +1,155 @@
+<section class="w3l-main-slider position-relative" id="home">
+    <div class="companies20-content">
+        <div class="owl-one owl-carousel owl-theme">
+            <div class="item">
+                <li>
+                    <div class="slider-info banner-view bg bg2">
+                        <div class="banner-info">
+                            <h3>Latest Movie Trailers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="over-para"> Consequuntur hic odio
+                                voluptatem tenetur consequatur.</span></p>
+                            <a href="#small-dialog1" class="popup-with-zoom-anim play-view1">
+                                <span class="video-play-icon">
+                                    <span class="fa fa-play"></span>
+                                </span>
+                                <h6>Watch Trailer</h6>
+                            </a>
+                            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                            <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
+                                <iframe src="https://player.vimeo.com/video/358205676" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <div class="slider-info  banner-view banner-top1 bg bg2">
+                        <div class="banner-info">
+                            <h3>Latest Online Movies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="over-para"> Consequuntur hic odio
+                                voluptatem tenetur consequatur.</span></p>
+                            <a href="#small-dialog2" class="popup-with-zoom-anim play-view1">
+                                <span class="video-play-icon">
+                                    <span class="fa fa-play"></span>
+                                </span>
+                                <h6>Watch Trailer</h6>
+                            </a>
+                            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                            <div id="small-dialog2" class="zoom-anim-dialog mfp-hide">
+                                <iframe src="https://player.vimeo.com/video/395376850" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <div class="slider-info banner-view banner-top2 bg bg2">
+                        <div class="banner-info">
+                            <h3>Latest Movie Trailers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="over-para"> Consequuntur hic odio
+                                voluptatem tenetur consequatur.</span></p>
+                            <a href="#small-dialog3" class="popup-with-zoom-anim play-view1">
+                                <span class="video-play-icon">
+                                    <span class="fa fa-play"></span>
+                                </span>
+                                <h6>Watch Trailer</h6>
+                            </a>
+                            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                            <div id="small-dialog3" class="zoom-anim-dialog mfp-hide">
+                                <iframe src="https://player.vimeo.com/video/389969665" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="item">
+                <li>
+                    <div class="slider-info banner-view banner-top3 bg bg2">
+                        <div class="banner-info">
+                            <h3>Latest Online Movies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="over-para"> Consequuntur hic odio
+                                voluptatem tenetur consequatur.</span></p>
+                            <a href="#small-dialog4" class="popup-with-zoom-anim play-view1">
+                                <span class="video-play-icon">
+                                    <span class="fa fa-play"></span>
+                                </span>
+                                <h6>Watch Trailer</h6>
+                            </a>
+                            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                            <div id="small-dialog4" class="zoom-anim-dialog mfp-hide">
+                                <iframe src="https://player.vimeo.com/video/323491174" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //banner-slider-->
+<!-- main-slider -->
+<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+
+
+</div>
+
+
+<section class="w3l-albums py-5" id="projects">
+    <div class="container py-lg-3">
+      <ul class="resp-tabs-list hor_1">
+        <li class="nav-item bg-info text-light font-weight-bold py-2 px-4 rounded">Phim Hoạt hình</li>
+      </ul>
+      <div class="clear"></div>
+  
+      <!-- Danh sách phim -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 new-relise-gd mt-lg-0 mt-4" *ngFor="let movie of movies">
+          <div class="slider-info">
+            <div class="img-circle">
+              <!-- Liên kết đến trang chi tiết phim -->
+              <a [routerLink]="['/chitietphim', movie.slug]">
+                <!-- Hiển thị poster của phim -->
+                <img [src]="'https://phimimg.com/' + movie.poster_url" class="img-fluid rounded" alt="{{ movie.name }}">
+                <div class="overlay-icon">
+                  <span class="fa fa-play video-icon" aria-hidden="true"></span>
+                </div>
+              </a>
+            </div>
+            <div class="message">
+              <!-- Tên gốc của phim -->
+              <p>{{ movie.origin_name }}</p>
+              <!-- Tên phim và liên kết đến trang chi tiết -->
+              <a class="author-book-title font-weight-bold text-dark" [routerLink]="['/chitietphim', movie.slug]">{{ movie.name }}</a>
+              <h4>
+                <span class="post">
+                  <span class="fa fa-calendar"> </span> {{ movie.year }}
+                </span>
+                <span class="post ml-3">
+                  <span class="fa fa-clock"> </span> {{ movie.time }}
+                </span>
+              </h4>
+              <!-- Thông tin về tập hiện tại -->
+              <p>Tập hiện tại: {{ movie.episode_current }}</p>
+              <!-- Thể loại phim -->
+              <p *ngFor="let category of movie.category">
+                <span class="badge badge-info">{{ category.name }}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  
+  
+  
+  <div style="margin: 8px auto; display: block; text-align:center;">
+
+    <!---728x90--->
+    
+    </div>
