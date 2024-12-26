@@ -16,13 +16,16 @@ import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ChitietphimComponent } from './chitietphim/chitietphim.component';
-import { XemphimComponent } from './xemphim/xemphim.component';
+
 import { PhimboComponent } from './phimbo/phimbo.component';
 import { PhimleComponent } from './phimle/phimle.component';
 import { UseridComponent } from './userid/userid.component';
 import { TimkiemComponent } from './timkiem/timkiem.component';
 import { AboutComponent } from './about/about.component';
 import { HoathinhComponent } from './hoathinh/hoathinh.component';
+import { MovieComponent } from './movie/movie.component';
+import { SafeUrlPipe } from './safe-url.pipe';
+
 
 @NgModule({
   declarations: [
@@ -34,13 +37,14 @@ import { HoathinhComponent } from './hoathinh/hoathinh.component';
     UserComponent,
     RegisterComponent,
     ChitietphimComponent,
-    XemphimComponent,
     PhimboComponent,
     PhimleComponent,
     UseridComponent,
     TimkiemComponent,
     AboutComponent,
-    HoathinhComponent
+    HoathinhComponent,
+    MovieComponent,
+    SafeUrlPipe,
   ],
   imports: [
     BrowserModule,
