@@ -1,17 +1,8 @@
-<div class="user-info">
-    <h2>Thông tin người dùng</h2>
-  
-    <!-- Hiển thị thông tin người dùng nếu có -->
-    <div *ngIf="user">
-      <p><strong>ID:</strong> {{ user.Id }}</p>
-      <p><strong>Email:</strong> {{ user.Email }}</p>
-      <p><strong>Tên:</strong> {{ user.Name }}</p>
-      <hr />
-    </div>
-  
-    <!-- Hiển thị lỗi nếu có -->
-    <div *ngIf="errorMessage">
-      <p>{{ errorMessage }}</p>
-    </div>
-  </div>
-  
+<div *ngIf="isLoading" class="loading">Đang tải...</div>
+
+<div *ngIf="!isLoading && userData">
+  <h2>Thông tin người dùng</h2>
+  <p><strong>ID:</strong> {{ userData.Id }}</p>
+  <p><strong>Tên:</strong> {{ userData.Name }}</p>
+  <p><strong>Email:</strong> {{ userData.Email }}</p>
+</div>

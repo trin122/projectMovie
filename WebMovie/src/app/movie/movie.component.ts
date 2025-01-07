@@ -15,16 +15,21 @@ export class MovieComponent implements OnInit {
   episodes: any[] = [];
   selectedEpisode: any;
   safeUrl: SafeResourceUrl | null = null;
+  currentUrl: string = ''; // Thêm biến này để lưu URL hiện tại
 
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private router: Router // Import Router để lấy URL
   ) { }
 
   ngOnInit(): void {
     const slug = this.route.snapshot.params['slug'];
     this.getMovieDetails(slug);
+
+    // Lấy URL hiện tại
+    this.currentUrl = window.location.origin + this.router.url;
   }
 
   getMovieDetails(slug: string): void {

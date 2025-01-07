@@ -25,6 +25,8 @@ import { AboutComponent } from './about/about.component';
 import { HoathinhComponent } from './hoathinh/hoathinh.component';
 import { MovieComponent } from './movie/movie.component';
 import { SafeUrlPipe } from './safe-url.pipe';
+import { XemtatcaComponent } from './xemtatca/xemtatca.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
 
 
 @NgModule({
@@ -45,6 +47,8 @@ import { SafeUrlPipe } from './safe-url.pipe';
     HoathinhComponent,
     MovieComponent,
     SafeUrlPipe,
+    XemtatcaComponent,
+    ChangepasswordComponent,
   ],
   imports: [
     BrowserModule,

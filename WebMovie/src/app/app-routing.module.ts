@@ -13,6 +13,8 @@ import { TimkiemComponent } from './timkiem/timkiem.component';
 import { AboutComponent } from './about/about.component';
 import { HoathinhComponent } from './hoathinh/hoathinh.component';
 import { MovieComponent } from './movie/movie.component';
+import { XemtatcaComponent } from './xemtatca/xemtatca.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
 // import { XemphimComponent } from './xemphim/xemphim.component';
 
 const routes: Routes = [
@@ -24,10 +26,12 @@ const routes: Routes = [
   { path: 'phimbo', component: PhimboComponent },
   { path: 'users', component: UserComponent },
   { path: 'phimle', component: PhimleComponent },
-  { path: 'userid/:id', component: UseridComponent },
+  { path: 'user/:id', component: UseridComponent },
   { path: 'timkiem', component: TimkiemComponent },
   { path: 'about', component: AboutComponent },
   { path: 'hoathinh', component: HoathinhComponent },
+  { path: 'xemtatca', component: XemtatcaComponent },
+  { path: 'doimatkhau', component: ChangepasswordComponent },
   
 ];
 

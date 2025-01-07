@@ -11,29 +11,29 @@ export class ApiService {
 
   constructor(private http: HttpClient) {}
 
-  // GET tất cả người dùng
+  // tất cả người dùng
   Getuser(): Observable<any[]> {
     return this.http.get<any[]>(this.baseUrl + '/User'); 
   }
 
-  // GET lấy người dùng theo id
-  getUserById(userId: string): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}/${userId}`);
+  // lấy người dùng theo id
+  getUser(userId: number): Observable<any> {
+    const url = `${this.baseUrl}/User/${userId}`;
+    return this.http.get(url);
   }
 
-  // POST đăng nhập
+  // đăng nhập
   Login(val: any): Observable<any> {
     return this.http.post<any>(this.baseUrl + '/Login', val); 
   }
 
-  // POST để đăng ký 
+  // để đăng ký 
   Register(val: any): Observable<any> {
     return this.http.post<any>(this.baseUrl + '/Register', val);
   }
-
-  // GET tìm kiếm phim 
-  searchMovies(query: string): Observable<any[]> {
-    return this.http.get<any[]>(`${this.searchApiUrl}?search=${query}`);
-  }
+// doi mat khau
+ChangePassword(changePasswordData: any): Observable<any> {
+  return this.http.post(`${this.baseUrl}/ChangePassword`, changePasswordData);
+}
 
 }

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { ToastrService } from 'ngx-toastr';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-userid',
@@ -8,34 +10,30 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./userid.component.css']
 })
 export class UseridComponent implements OnInit {
-  user: any = null;  // Dữ liệu người dùng sẽ được lưu ở đây
-  errorMessage: string | null = null;  // Lỗi nếu không lấy được dữ liệu
+  userData: any = {}; 
+  isLoading = false;
 
-  constructor(
-    private route: ActivatedRoute,
-    private http: HttpClient
-  ) {}
+  constructor(private apiService: ApiService, private toastr: ToastrService) { }
 
   ngOnInit(): void {
-    // Lấy userId từ URL
-    this.route.params.subscribe(params => {
-      const userId = params['id'];  // Lấy userId từ params
-
-      if (userId) {
-        // Gọi API để lấy thông tin người dùng
-        this.http.get(`https://localhost:44317/api/User/${userId}`).subscribe(
-          (data: any) => {
-            this.user = data;  // Lưu thông tin người dùng vào biến `user`
-            this.errorMessage = null;  // Đặt lỗi thành null nếu thành công
-          },
-          (error) => {
-            console.error(error);
-            this.errorMessage = 'Không thể tải thông tin người dùng.';
-          }
-        );
-      } else {
-        this.errorMessage = 'Không có ID người dùng trong URL.';
-      }
-    });
+    this.isLoading = true;
+    const user = localStorage.getItem('user');
+    if (user) {
+      const userId = JSON.parse(user).Id; 
+      this.apiService.getUser(userId).subscribe(
+        (response) => {
+          this.userData = response;
+          this.isLoading = false;
+        },
+        (error) => {
+          this.isLoading = false;
+          this.toastr.error('Lỗi khi lấy thông tin người dùng', 'Lỗi!');
+          console.error(error); 
+        }
+      );
+    } else {
+      this.isLoading = false;
+      this.toastr.error('Người dùng chưa đăng nhập!', 'Lỗi!');
+    }
   }
 }

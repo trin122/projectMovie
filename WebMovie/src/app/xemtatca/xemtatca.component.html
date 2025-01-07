@@ -1,0 +1,35 @@
+<section class="w3l-albums py-5" id="projects">
+    <div class="container py-lg-3">
+        <ul class="resp-tabs-list hor_1">
+            <li class="nav-item bg-info text-light font-weight-bold py-2 px-4 rounded">Phim phổ biến</li>
+    <!-- <li>Popular Movies</li>
+    <li>Trend Movies</li> -->
+    <div class="clear"></div>
+</ul>
+      <div class="row">
+        <div class="col-lg-4 new-relise-gd mt-lg-0 mt-0" *ngFor="let movie of movies">
+            
+          <div class="slider-info">
+            <div class="img-circle">
+              <a [routerLink]="['/chitietphim', movie.slug]">
+                <img [src]="movie.poster_url" class="img-fluid" alt="{{ movie.name }}">
+                <div class="overlay-icon">
+                  <span class="fa fa-play video-icon" aria-hidden="true"></span>
+                </div>
+              </a>
+            </div>
+            <div class="message">
+              <p>{{ movie.origin_name }}</p>
+              <a class="author-book-title" [routerLink]="['/chitietphim', movie.slug]">{{ movie.name }}</a>
+              <h4>
+                <span class="post">
+                  <span class="fa fa-clock-o"> </span> {{ movie.year }} Hr
+                </span>
+                <span class="post fa fa-heart text-right"></span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
