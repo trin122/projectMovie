@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.ChangepasswordController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Changepassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Model.Changepassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.GenreController",
     "Method": "GetGenres",
     "RelativePath": "api/Genre",
