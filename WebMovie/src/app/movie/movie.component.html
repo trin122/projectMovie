@@ -46,11 +46,16 @@
                             <h4>Danh sách tập</h4>
                             <div *ngFor="let episode of episodes" class="mb-3">
                                 <h5>{{ episode.server_name }}</h5>
-                                <ul class="list-unstyled d-flex flex-row">
-                                    <li *ngFor="let server of episode.server_data" class="me-2">
-                                        <button class="btn btn-outline-primary" (click)="selectEpisode(server)">{{ server.name }}</button>
-                                    </li>
-                                </ul>
+                                <div class="d-flex flex-wrap">
+                                    <ng-container *ngFor="let server of episode.server_data; let i = index">
+                                        <button class="btn btn-outline-primary me-2 mb-2" (click)="selectEpisode(server)">
+                                            {{ server.name }}
+                                        </button>
+                                        <ng-container *ngIf="(i + 1) % 14 === 0">
+                                            <div class="w-100"></div>
+                                        </ng-container>
+                                    </ng-container>
+                                </div>
                             </div>
                         </div>
                     </div>
